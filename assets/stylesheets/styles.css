@@ -47,7 +47,7 @@ ol {
 
 .container {
 	max-width: 900px; 
-	margin: 0 3%;
+	margin: 0 auto;
 }
 
 /* 
@@ -110,15 +110,14 @@ img {
 }
 
 .image-gallery li {
-	width: 48.5%;
+	width: 47%;
 	float: left;
-	margin-right: 3%;
-	margin-bottom: 3%;
+	margin: 1.5% 1.5%;
 }
 
-.image-gallery li:nth-child(even) {
+/*.image-gallery li:nth-child(even) {
 	margin-right: 0%;
-}
+}*/
 
 #contact ul {
 	font-size: 1.6em;
