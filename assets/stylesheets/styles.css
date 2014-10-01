@@ -16,6 +16,7 @@ Oct 3 2014
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 62.5%;
 }
 
 p {
@@ -45,18 +46,26 @@ ol {
 }*/
 
 .container {
-	width: 70%;
-	margin: 0 auto;
+	max-width: 900px; 
+	margin: 0 3%;
 }
 
+/* 
+make responsive by taking out site header from container 
+fixing the site-header and max-width and inside element
+*/
 .site-header {
 	position: fixed;
-	width: 70%;
-	margin: 0 auto;
-	height: 60px;
-	padding: 5px 0px;
+	width: 100%;
+	height: 10%;
+	padding: 0.5% 3%; 
 	border-bottom: 3px solid red;
 	background-color: white;
+}
+
+.inside-header {
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 .site-title {
@@ -64,7 +73,7 @@ ol {
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 2em;
 	font-weight: 700;
 }
 
@@ -73,22 +82,27 @@ h1 {
 }
 
 .site-nav li {
-	float: left;
-	padding: 15px;
+	display: inline-block;
+	padding: 1.5em 0em 0em 1.5em;
 }
 
 .site-nav li a {
+	font-size: 1.6em;
 	color: black;
 	text-decoration: none;
 }
 
 .site-main {
-	padding-top: 70px;
+	padding-top: 6em;
+}
+
+#about {
+	font-size: 1.6em;
 }
 
 #about, #contact {
-	margin-left: 50%;
-	padding: 80px 0px 80px 10px;
+	margin-left: 51.5%;
+	padding: 10% 0%;
 }
 
 img {
@@ -107,16 +121,14 @@ img {
 }
 
 #contact ul {
-	margin-left: 20px;
-}
-
-#contact ul li {
-	padding: 5px 0px;
+	font-size: 1.6em;
+	list-style-position: inside; 
 }
 
 .site-footer {
+	font-size: 1.6em;
 	border-top: 3px solid red;
 	text-align: center;
-	padding: 100px;
+	padding: 4em;
 }
 
