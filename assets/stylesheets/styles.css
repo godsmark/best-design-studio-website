@@ -16,11 +16,11 @@ Oct 3 2014
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 62.5%;
+	font-size: 62.5%; /* makes 1em = 10px */
 }
 
 p {
-	line-height: 150%;
+	line-height: 1.5;
 }
 
 ol {
@@ -110,14 +110,14 @@ img {
 }
 
 .image-gallery li {
-	width: 47%;
+	width: 50%;
 	float: left;
-	margin: 1.5% 1.5%;
+	padding: 1.5% 1.5%;
 }
 
-/*.image-gallery li:nth-child(even) {
+.image-gallery li:nth-child(even) {
 	margin-right: 0%;
-}*/
+}
 
 #contact ul {
 	font-size: 1.6em;
